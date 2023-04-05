@@ -116,7 +116,8 @@ body {
   transform: scaleX(0%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.navigation-link:hover::after {
+.navigation-link:hover::after,
+.navigation-link:focus::after {
   transform: scaleX(100%);
 }
 .active-nav-posithion {
